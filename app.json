@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "ChatGPT",
+    "slug": "ChatGPT",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "backgroundColor": "#343541",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#343541"
+      },
+      "package": "com.alexstarling.ChatGPT",
+      "backgroundColor": "#343541"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f5b19f2d-5700-48cd-b34c-37ebaa3ed96f"
+      }
+    }
+  }
+}
